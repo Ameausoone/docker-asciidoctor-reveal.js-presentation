@@ -1,0 +1,19 @@
+= Stretch class
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/
+
+== First slide
+
+Some content
+
+Nothing stretched
+
+See?
+
+== Second slide
+
+Some content
+
+[.stretch]
+Stretched
+
+See?

@@ -1,0 +1,7 @@
+= EPIC TITLE
+:title-slide-background-color: red
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/
+
+== Next slide
+
+Content

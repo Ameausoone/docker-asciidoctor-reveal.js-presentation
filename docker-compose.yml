@@ -1,0 +1,11 @@
+version: '2'
+services:
+  prez:
+    image: ameausoone/docker-image-asciidoctor-reveal.js:master
+    ports:
+    - "8000:8000"
+    volumes:
+    - ./slides/:/opt/slides/
+    - ./output/:/opt/output/
+    environment:
+      INDEX: history.html

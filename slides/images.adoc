@@ -1,0 +1,16 @@
+= Images tests
+:imagesdir: images
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/
+
+== Normal
+
+image::web_surfing_time.gif[]
+
+== Stretched
+
+[.stretch]
+image::web_surfing_time.gif[]
+
+== Hardcoded
+
+image::web_surfing_time.gif[width="1200"]

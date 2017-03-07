@@ -1,0 +1,17 @@
+= Slide Transitions
+:backend: revealjs
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/
+
+== !
+
+This
+
+[%notitle, transition="zoom"]
+== Zoom zoom
+
+This slide will override the presentation transition and zoom!
+
+[%notitle, transition-speed="fast"]
+== Speed
+
+Choose from three transition speeds: default, fast or slow!

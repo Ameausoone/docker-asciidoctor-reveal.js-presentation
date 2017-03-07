@@ -1,0 +1,21 @@
+= Dockerize your application with AsciiDoctor-reveal.js image
+
+Skeleton project to live-edit and present your AsciiDoctor-reveal.js slides.
+
+== Usage
+
+=== 1. Create your Slides
+
+You can follow this https://github.com/asciidoctor/asciidoctor-reveal.js/[tutorial]
+or check the samples in `slides` directory to create your
+slides using AsciiDoctor.
+
+=== 2. Start your container
+
+Run the following command to create a container:
+
+```bash
+docker-compose up
+```
+
+Open your browser and go to: http://localhost:8000
