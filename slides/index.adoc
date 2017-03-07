@@ -1,0 +1,17 @@
+= History
+:backend: revealjs
+// enables browser history
+:revealjs_history: true
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/
+
+== First slide
+
+Uno
+
+== Second slide
+
+Dos
+
+== Third slide
+
+Tres
