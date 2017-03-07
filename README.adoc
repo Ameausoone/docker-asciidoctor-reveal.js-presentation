@@ -12,10 +12,12 @@ slides using AsciiDoctor.
 
 === 2. Start your container
 
-Run the following command to create a container:
+Just run the following command to create a container :
 
 ```bash
 docker-compose up
 ```
 
 Open your browser and go to: http://localhost:8000
+
+Generated html files are available in output directory.

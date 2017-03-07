@@ -1,7 +1,7 @@
 version: '2'
 services:
   prez:
-    image: ameausoone/docker-image-asciidoctor-reveal.js:master
+    image: ameausoone/docker-image-asciidoctor-reveal.js
     ports:
     - "8000:8000"
     volumes:
