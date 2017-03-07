@@ -4,20 +4,18 @@ Skeleton project to live-edit and present your AsciiDoctor-reveal.js slides.
 
 == Usage
 
-=== 1. Create your Slides
+* Fork and git clone this repo
+* Run :
+```bash
+docker-compose up
+```
+* Open your browser and go to: http://localhost:8000
+* Now you can edit your slides, and view them in your browser
+
+== Informations
 
 You can follow this https://github.com/asciidoctor/asciidoctor-reveal.js/[tutorial]
 or check the samples in `slides` directory to create your
 slides using AsciiDoctor.
-
-=== 2. Start your container
-
-Just run the following command to create a container :
-
-```bash
-docker-compose up
-```
-
-Open your browser and go to: http://localhost:8000
 
 Generated html files are available in output directory.
