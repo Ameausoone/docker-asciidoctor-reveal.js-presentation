@@ -1,4 +1,4 @@
-= Dockerize your application with AsciiDoctor-reveal.js image
+= Build and serve your AsciiDoctor-reveal.js presentation
 
 Skeleton project to live-edit and present your AsciiDoctor-reveal.js slides.
 
@@ -19,3 +19,8 @@ or check the samples in `slides` directory to create your
 slides using AsciiDoctor.
 
 Generated html files are available in output directory.
+
+If you just want to generate html page, run :
+```bash
+docker run -v $PWD/slides/:/opt/slides/ -v $PWD/output:/opt/output/ --rm ameausoone/docker-image-asciidoctor-reveal.js make
+```
