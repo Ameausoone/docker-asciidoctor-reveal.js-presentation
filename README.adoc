@@ -12,15 +12,26 @@ docker-compose up
 * Open your browser and go to: http://localhost:8000
 * Now you can edit your slides, and view them in your browser
 
+NOTE: For open by default your presentation, just override "INDEX" in docker-compose.yml file.
+
 == Informations
 
+=== Asciidoc
+
 You can follow this https://github.com/asciidoctor/asciidoctor-reveal.js/[tutorial]
-or check the samples in `slides` directory to create your
-slides using AsciiDoctor.
+or check the samples in `slides` directory to create your slides using AsciiDoctor.
+
+=== Html
 
 Generated html files are available in output directory.
+
+=== Generate
 
 If you just want to generate html page, run :
 ```bash
 docker run -v $PWD/slides/:/opt/slides/ -v $PWD/output:/opt/output/ --rm ameausoone/docker-image-asciidoctor-reveal.js make
 ```
+
+=== Publish to Github pages
+
+To publish your presentation to Github pages, follow this link:http://mgreau.com/posts/2016/03/28/asciidoc-to-gh-pages-with-travis-ci-docker-asciidoctor.html[article].
